@@ -1,0 +1,61 @@
+body {
+    width: 1440px;
+
+}
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
+#container {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    
+
+}
+
+#Sedan {
+   background-color: hsl(31, 77%, 52%) ; 
+   padding: 30px;
+   border-radius: 6px 0 0 6px;
+
+}
+
+#suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+}
+
+
+#luxury {
+
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+    border-radius: 0 6px 6px 0;
+}
+
+.button {
+    background-color: hsl(0, 0%, 95%) ; 
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 50%;
+    margin-top: 30px;
+
+}
+.button:hover {
+    background-color: inherit;
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+
+h1 {
+    color: hsl(0, 0%, 95%) ;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+

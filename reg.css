@@ -1,0 +1,86 @@
+body {
+    width: 1440px;
+    background: url("bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    font-size: 1rem ;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 4.3rem auto;
+    gap: 1.7rem;
+}
+input {
+    display: block;
+
+}
+
+
+#container {
+    background-color: white;
+    padding: 1.2rem;
+    border-radius: 8px;
+    width: 90%;
+    box-shadow: 4px 4px 8px rgba(121,119,0,3);
+}
+
+#container input {
+    padding: 1.2rem;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 90%;
+    box-shadow: 1px solid rgb(211, 208,208);
+    
+    
+}
+
+button {
+    border: none;
+    background-color: hsl(154, 59%, 51%);
+    padding: 1.2rem;
+    width: 98%;
+    border-radius: 8px;
+    color: white;
+
+
+
+}
+
+#free {
+    border: none;
+    background-color: hsl(248, 32%, 49%);
+    padding: 1.2rem;
+    width: 90%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+   
+    
+
+
+}
+h1 {
+    color: white;
+    width: 60%;
+}
+p {
+    color: white;
+}
+#terms {
+    color: hsl(249, 10%, 26%);
+}
+
+span {
+    color: red;
+}
+#learn {
+    width: 80%;
+    text-align: left;
+    margin-top: 150px;
+   
+
+}

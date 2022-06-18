@@ -1,0 +1,43 @@
+body {
+    background-color: #1A1C2B;
+}
+main {
+
+    display: grid;
+    width: 50%;
+    margin: 40px auto;
+    grid-template-areas: 
+    'a a a b'
+    'c c d d'
+    'c c e e';
+    gap: 15px
+    ;
+}
+div {
+    padding: 8rem;
+
+}
+
+.box-a {
+    background-color: red;
+    grid-area: a;
+}
+.box-b {
+    background-color: orange;
+    grid-area: b;
+} 
+.box-c {
+
+    background-color: green;
+    grid-area: c;
+}
+.box-d {
+    background-color: #01AEFD;
+    grid-area: d;
+} 
+
+.box-e{
+    background-color:#01AEFD ;
+    grid-area: e;
+} 
+font
