@@ -5,7 +5,7 @@ main {
 
     display: grid;
     width: 50%;
-    margin: 40px auto;
+    margin: 20px auto;
     grid-template-areas: 
     'a a a b'
     'c c d d'
@@ -40,4 +40,16 @@ div {
     background-color:#01AEFD ;
     grid-area: e;
 } 
-font
+#flexbox {
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+    padding: 0;
+    
+
+}
+#flexbox a {
+    text-decoration: none;
+    color: rgb(14, 231, 79);
+    
+}
